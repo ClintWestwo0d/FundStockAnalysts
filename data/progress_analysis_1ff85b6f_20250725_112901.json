@@ -1,0 +1,70 @@
+{
+  "analysis_id": "analysis_1ff85b6f_20250725_112901",
+  "status": "completed",
+  "current_step": 8,
+  "total_steps": 9,
+  "progress_percentage": 100.0,
+  "current_step_name": "📊 生成报告",
+  "current_step_description": "整理所有分析结果，生成最终投资报告",
+  "elapsed_time": 2.3749876022338867,
+  "estimated_total_time": 144.0,
+  "remaining_time": 0.0,
+  "last_message": "✅ 分析成功完成！",
+  "last_update": 1753414143.6811187,
+  "start_time": 1753414141.3061311,
+  "steps": [
+    {
+      "name": "📋 准备阶段",
+      "description": "验证股票代码，检查数据源可用性",
+      "weight": 0.05555555555555556
+    },
+    {
+      "name": "🔧 环境检查",
+      "description": "检查API密钥配置，确保数据获取正常",
+      "weight": 0.022222222222222223
+    },
+    {
+      "name": "💰 成本估算",
+      "description": "根据分析深度预估API调用成本",
+      "weight": 0.011111111111111112
+    },
+    {
+      "name": "⚙️ 参数设置",
+      "description": "配置分析参数和AI模型选择",
+      "weight": 0.022222222222222223
+    },
+    {
+      "name": "🚀 启动引擎",
+      "description": "初始化AI分析引擎，准备开始分析",
+      "weight": 0.05555555555555556
+    },
+    {
+      "name": "📰 新闻分析",
+      "description": "分析相关新闻、公告、行业动态对股价的影响",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "💡 投资建议",
+      "description": "基于分析结果制定具体的买卖建议",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "⚠️ 风险提示",
+      "description": "识别主要投资风险并提供风险提示",
+      "weight": 0.05555555555555556
+    },
+    {
+      "name": "📊 生成报告",
+      "description": "整理所有分析结果，生成最终投资报告",
+      "weight": 0.044444444444444446
+    }
+  ],
+  "raw_results": {
+    "success": false,
+    "error": "数据准备失败: cannot import name 'add_market_prefix' from 'tradingagents.dataflows.utils' (D:\\exp\\TradingAgents-CN\\tradingagents\\dataflows\\utils.py)",
+    "suggestion": "请检查网络连接或数据源配置",
+    "stock_symbol": "000032",
+    "analysis_date": "2025-07-25",
+    "session_id": "analysis_4e59d92a_20250725_112902"
+  }
+}

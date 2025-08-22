@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "plate-quote": {
+      "url": "https://data-api.investoday.net/data/mcp?apiKey=b04a7df2b76b489484335a26596dfab9"
+    }
+  }
+}
