@@ -11,6 +11,10 @@
 
 基于多智能体与多模态模型的**全域文档智能分析框架**，专为金融等领域打造，实现从信息提取到决策支持的全流程自动化。
 
+### 🔗 在线体验
+<strong>https://fundstockanalysts.streamlit.app/</strong>
+![](./docs/app.png)
+
 
 ## 📌 项目背景
 
